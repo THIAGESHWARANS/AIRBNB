@@ -122,13 +122,20 @@ height: 19px;
 flex-shrink: 0;
 }
 .icon-container {
+  position: absolute;
+  padding-top: 30px;
+  margin-top: -500px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
+  width: 500px; /* Adjust this width to match the image width */
 }
 
-i {
-  font-size: 24px;
+img {
+
+  width: 40px;
+  height: 40px;
   margin: 0 10px;
 }
