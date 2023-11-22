@@ -197,56 +197,76 @@ flex-shrink: 0;
 border: 1px solid rgba(0, 0, 0, 0.25);
 background: rgba(0, 0, 0, 0.20);
 }
-.toggle-button {
-  position: relative;
-  width: 100px;
-  height: 50px;
-  background-color: gray;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.white-circle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  border-radius: 10px;
-}
-
-.toggle-button:hover {
-  background-color: darkgray;
-}
-
-.toggle-button.active .white-circle {
-  left: 90%;
-}
-.imagerow {
+.image-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
 }
-.imagerow img{
+.image-row img{
   margin-top: 50px;
   width:350px;
   height: 350px;
   border-radius: 20px;
 }
-
-.textright{
+.image-text-left{
+  color: #000;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  position: absolute;
   display: block;
-  text-align: center;
-  margin-top: 5px;
+  text-align: left;
+  margin-top: 20px;
 }
-
-
-
-.imagerow a {
+.image-text-right{
+  display: block;
+  text-align: right;
+  margin-top: -85px;
+}
+.image-row a {
   color: black;
   text-decoration: none;
+}
+.textline2{
+  margin-top: 40px;
+  color: rgba(0, 0, 0, 0.478);font-family: Inter; word-wrap: break-word;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 10;
+line-height: normal;
+}
+.textline3{
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.478);font-family: Inter; word-wrap: break-word;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 10;
+line-height: normal;
+}
+.textline4{
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+    position: absolute;
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+}
+.textline5{
+  margin-top: 5px;
+  margin-left: 60px;
+  color: rgba(0, 0, 0, 0.707);font-family: Inter; word-wrap: break-word;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 10;
+line-height: normal;
 }
