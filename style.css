@@ -121,3 +121,14 @@ background: #FFF;
 height: 19px;
 flex-shrink: 0;
 }
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+i {
+  font-size: 24px;
+  margin: 0 10px;
+}
