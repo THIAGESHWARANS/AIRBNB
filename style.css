@@ -1,4 +1,7 @@
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
   border: 1px solid rgba(0, 0, 0, 0.15);
   background: #fff;
   width: 1440px;
@@ -135,9 +138,9 @@
   flex-shrink: 0;
 }
 .icon-container {
-  position: absolute;
-  padding-top: 30px;
-  margin-top: -500px;
+  position:;
+  padding-top: 60px;
+  margin-top: 200px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -147,12 +150,17 @@
 }
 
 .icon-container img {
+  position: fixed;
   width: 40px;
   height: 40px;
-  margin: 0 30px;
+  justify-content: space-between;
+  margin: 0 50px;
+  margin right: 100px;
+  
 }
 
 .icon-container span {
+  position: fixed;
   display: block;
   text-align: center;
   font-size: 12px;
@@ -163,7 +171,7 @@
   color: #000;
 }
 .ellipse5 {
-  position: absolute;
+  position: fixed;
   margin-left: 1004px;
   margin-top: 40px;
   width: 100%;
@@ -179,12 +187,14 @@
   stroke: #000;
 }
 .line8 {
+  position: fixed;
   margin-left: 1018px;
   margin-top: 50px;
   width: -50px;
   height: -50px;
 }
 .rectangle5 {
+  position:fixed;
   text-align: center;
   line-height: 43px;
   width: 87px;
@@ -197,10 +207,11 @@
   margin-top: -30px;
 }
 .rectangle6 {
+  position: fixed;
   line-height: 43px;
   text-indent: 5px;
   margin-left: 1180px;
-  margin-top: -43px;
+  margin-top: -30px;
   width: 225px;
   height: 44px;
   flex-shrink: 0;
@@ -209,8 +220,9 @@
   background: rgba(217, 217, 217, 0);
 }
 .rectangle7 {
+  position: fixed;
   margin-left: 1360px;
-  margin-top: -35px;
+  margin-top: -20px;
   width: 34px;
   height: 22px;
   flex-shrink: 0;
@@ -225,7 +237,6 @@
   flex-shrink: 100px;
   justify-content: space-between;
   margin-right: 100px;
-
 }
 .image-row img {
   margin-top: 50px;
