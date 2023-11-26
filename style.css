@@ -138,29 +138,28 @@
   flex-shrink: 0;
 }
 .icon-container {
-  position:;
-  padding-top: 60px;
-  margin-top: 200px;
+  position: fixed;
+  top:100px;
+  left: 0;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  width: 500px;
+  width: 65%;
 }
 
+
 .icon-container img {
-  position: fixed;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   justify-content: space-between;
   margin: 0 50px;
-  margin right: 100px;
+  margin right: 1px;
   
 }
 
 .icon-container span {
-  position: fixed;
+
   display: block;
   text-align: center;
   font-size: 12px;
@@ -187,14 +186,12 @@
   stroke: #000;
 }
 .line8 {
-  position: fixed;
   margin-left: 1018px;
   margin-top: 50px;
   width: -50px;
   height: -50px;
 }
 .rectangle5 {
-  position:fixed;
   text-align: center;
   line-height: 43px;
   width: 87px;
@@ -207,11 +204,10 @@
   margin-top: -30px;
 }
 .rectangle6 {
-  position: fixed;
   line-height: 43px;
   text-indent: 5px;
   margin-left: 1180px;
-  margin-top: -30px;
+  margin-top: -43px;
   width: 225px;
   height: 44px;
   flex-shrink: 0;
@@ -220,9 +216,8 @@
   background: rgba(217, 217, 217, 0);
 }
 .rectangle7 {
-  position: fixed;
   margin-left: 1360px;
-  margin-top: -20px;
+  margin-top: -35px;
   width: 34px;
   height: 22px;
   flex-shrink: 0;
@@ -327,4 +322,79 @@
 .image-row1 a {
   color: black;
   text-decoration: none;
+}
+/* Existing styles... */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #fff;
+  width: 100%; /* Full width */
+  height: 87px;
+}
+
+.navbar2 {
+  position: fixed;
+  top: 87px;
+  left: 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #fff;
+  width: 100%; /* Full width */
+  height: 87px;
+}
+
+.logo {
+  position: absolute;
+  padding-top: 20px;
+  margin-left: 5%; /* Use percentage for better responsiveness */
+}
+
+/* ... (Other styles remain the same) */
+
+
+
+.icon-container img {
+  width: 50px; /* Adjust based on your design */
+  height: 50px; /* Adjust based on your design */
+  margin: 0 5px; /* Adjust based on your design */
+}
+
+/* ... (Other styles remain the same) */
+
+.image-row,
+.image-row1 {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
+  justify-content: space-around;
+  margin: 20px auto; /* Adjust based on your design */
+}
+
+.image-row img,
+.image-row1 img {
+  width: 100%; /* Make images fill the container */
+  max-width: 320px; /* Limit image width for larger screens */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 20px;
+  margin-bottom: 20px; /* Adjust based on your design */
+}
+
+.textline4 {
+  position: relative;
+  text-align: left;
+  margin-top: 5px;
+}
+
+/* ... (Other styles remain the same) */
+
+/* Include Bootstrap styles for responsiveness */
+@media (max-width: 767px) {
+  .box {
+    margin-left: 5%;
+  }
+
+  .airbnbyourhome {
+    margin-left: 5%;
+  }
 }
