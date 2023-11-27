@@ -11,8 +11,6 @@ Welcome to StayBnB, a front-end development project aimed at recreating the imme
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -47,7 +45,3 @@ To run StayBnB locally, follow these steps:
 ## Usage
 
 Feel free to explore the application and provide feedback. Contributions and suggestions are always welcome.
-
-## Contributing
-
-If you'd like to contribute to StayBnB, please follow the guidelines in [CONTRIBUTING.md](link-to-contributing-md). Your input is highly valued!
