@@ -154,7 +154,7 @@
   height: 30px;
   justify-content: space-between;
   margin: 0 50px;
-  margin right: 1px;
+  margin-right: 1px;
   
 }
 
@@ -348,36 +348,34 @@
 .logo {
   position: absolute;
   padding-top: 20px;
-  margin-left: 5%; /* Use percentage for better responsiveness */
+  margin-left: 5%; 
 }
 
-/* ... (Other styles remain the same) */
 
 
 
 .icon-container img {
-  width: 50px; /* Adjust based on your design */
-  height: 50px; /* Adjust based on your design */
-  margin: 0 5px; /* Adjust based on your design */
+  width: 50px; 
+  height: 50px; 
+  margin: 0 5px; 
 }
 
-/* ... (Other styles remain the same) */
 
 .image-row,
 .image-row1 {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
   justify-content: space-around;
-  margin: 20px auto; /* Adjust based on your design */
+  margin: 20px auto; 
 }
 
 .image-row img,
 .image-row1 img {
-  width: 100%; /* Make images fill the container */
-  max-width: 320px; /* Limit image width for larger screens */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  max-width: 320px; 
+  height: auto; 
   border-radius: 20px;
-  margin-bottom: 20px; /* Adjust based on your design */
+  margin-bottom: 20px; 
 }
 
 .textline4 {
@@ -386,7 +384,6 @@
   margin-top: 5px;
 }
 
-/* ... (Other styles remain the same) */
 
 /* Include Bootstrap styles for responsiveness */
 @media (max-width: 767px) {
