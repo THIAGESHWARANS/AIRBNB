@@ -466,4 +466,14 @@ position: fixed;
   .line2{
     margin-left: 60%;
   }
+  .image-row a,.image-row1 a{
+    margin-top: -30%;
+  }
+  .image-row img,.image-row1 img{
+    margin-top: 75%;
+    max-width: 100%;
+  }
+  .icon-container{
+    top:15%;
+  }
 }
