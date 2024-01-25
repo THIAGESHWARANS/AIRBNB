@@ -248,7 +248,6 @@ position: fixed;
  
   display: flex;
   flex-direction: row;
-  -ms-flex-align: center;
   flex-shrink: 100px;
   justify-content: space-between;
   margin-right: 100px;
