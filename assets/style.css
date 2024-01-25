@@ -104,11 +104,12 @@
   position: fixed;
   margin-left: 1105px;
   margin-top: -2.5%;
-  color: #000;
+  color:black;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
+  text-decoration: none;
 }
 .globe img {
 position:fixed;
@@ -382,13 +383,87 @@ position: fixed;
   margin-top: 5px;
 }
 
-
-@media (max-width: 767px) {
-  .box {
-    margin-left: 0%;
+@media(max-width:947px){
+  .navbar2{
+  top:6%;
   }
+  .box{
+    margin-top:-5.5%;
+    margin-left:25%;
+  }
+  .airbnbyourhome{
+    margin-top: -3%;
+    margin-left: 65%;
+  }
+  .globe img{
+    margin-left:80%;
+    margin-top:-3.5%;
+  }
+  .rectangle3{
+    margin-left:85%;
+    margin-top: -4.5%;
+  }
+  .ellipse1{
+    margin-left: 89%;
+    margin-top: -3.8%;
+  }
+  .ellipse2{
+    margin-left: 91%;
+    margin-top: -4%;
+  }
+  .icon-container img{
+    width:25px;
+    height:25px;
+    margin: 0 20px;
 
-  .airbnbyourhome {
-    margin-left: 0%;
+  }
+  .image-row1 img{
+    margin-top: 40%;
+  }
+}
+@media(max-width:880px){
+  .logopic,.airbnbyourhome,.globe,.rectangle3,.ellipse1,.ellipse2{
+    display: none;
+  }
+  .box{
+    width:85%;
+    margin-top: -1%;
+    margin-left:5%;
+  }
+  .ellipse3{
+    margin-left: 92%;
+  }
+}
+
+
+@media (max-width: 649px) {
+  .box {
+  margin-top: -1.5%;
+  }
+  .image-row img,.image-row1 img{
+    max-width: 100%;
+  }
+  .image-row a,.image-row1 a{
+    margin-top: -15%;
+  }
+}
+@media(max-width:380px){
+  .navbar{
+    height: 13%;
+  }
+  .navbar2{
+    margin-top:10%;
+  }
+  .box{
+    margin-top: -2%;
+  }
+  .ellipse3{
+    margin-left: 88%;
+  }
+  .addguests{
+    margin-left: 65%;
+  }
+  .line2{
+    margin-left: 60%;
   }
 }
