@@ -1,0 +1,1133 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 4007px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .flex-row-bd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1252px;
+    height: 43px;
+    margin: 18px 0 0 101px;
+    z-index: 20;
+  }
+  .airbnb-logo {
+    flex-shrink: 0;
+    position: relative;
+    width: 106px;
+    height: 33.073px;
+    background: url(./assets/images/4cfc7d81a7481678eced046fdd4a888cbad4114e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 19;
+  }
+  .rectangle {
+    flex-shrink: 0;
+    position: relative;
+    width: 82px;
+    height: 43px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    z-index: 20;
+    border-radius: 20px;
+  }
+  .ellipse {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    top: 5px;
+    left: 41px;
+    background: url(./assets/images/1291fd3d-7c71-4204-823a-9282ff343641.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 24;
+  }
+  .flex-column-ff {
+    position: absolute;
+    width: 20px;
+    height: 16px;
+    top: 13px;
+    left: 17px;
+    z-index: 23;
+  }
+  .line {
+    position: relative;
+    width: 20px;
+    margin: 0 0 0 0;
+    background: url(./assets/images/918ba6db-1c67-4107-83ad-986f7084e0d3.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 21;
+  }
+  .line-1 {
+    position: relative;
+    width: 20px;
+    margin: 8px 0 0 0;
+    background: url(./assets/images/6baaa63a-2647-4407-b5cd-0223b8125cba.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 22;
+  }
+  .line-2 {
+    position: relative;
+    width: 20px;
+    margin: 8px 0 0 0;
+    background: url(./assets/images/a2789f9f-dbeb-4c8d-b0d5-86023bf433aa.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 23;
+  }
+  .introducing-airbnb-friendly-apartments {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 723px;
+    height: 327px;
+    margin: 8px 0 0 370px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 108.92px;
+    text-align: center;
+    letter-spacing: -4.5px;
+    z-index: 25;
+  }
+  .rent-a-place {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 494px;
+    height: 36px;
+    margin: 0 0 0 485px;
+    color: rgba(0, 0, 0, 0.68);
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: -1.5px;
+    z-index: 18;
+  }
+  .rectangle-3 {
+    position: relative;
+    width: 203px;
+    height: 55px;
+    margin: 49px 0 0 618px;
+    cursor: pointer;
+    background: transparent;
+    background: no-repeat center;
+    background-size: cover;
+    border: none;
+    z-index: 26;
+  }
+  .explore-near-you {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 143px;
+    height: 24px;
+    top: 14px;
+    left: 35px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: -1px;
+    z-index: 28;
+  }
+  .flex-row-ba {
+    position: relative;
+    width: 1249px;
+    height: 600px;
+    margin: 82px 0 0 99px;
+    z-index: 16;
+  }
+  .rectangle-4 {
+    position: absolute;
+    width: 1247px;
+    height: 600px;
+    top: 0;
+    left: 2px;
+    font-size: 0px;
+    background: #d9d9d9;
+    border-radius: 15px;
+  }
+  .weve-partnered-with-apartment-buildings {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 468px;
+    height: 285px;
+    margin: 23px 0 0 666px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54.64px;
+    text-align: left;
+    letter-spacing: -2px;
+    z-index: 36;
+  }
+  .old-town-apartments {
+    display: block;
+    position: relative;
+    height: 37px;
+    margin: 129px 0 0 666px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 36.882px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -1.35px;
+    z-index: 15;
+  }
+  .scottsdale-arizona {
+    display: block;
+    position: relative;
+    height: 33px;
+    margin: -3px 0 0 666px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: Manrope, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32.784px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -1.2000000000000002px;
+    z-index: 14;
+  }
+  .flex-row-ad {
+    position: relative;
+    width: 124px;
+    height: 30px;
+    margin: 13px 0 0 666px;
+    z-index: 44;
+  }
+  .ellipse-5 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/ccfdf6b6-2b98-42a5-8cf3-0eb9d122d391.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 37;
+    border-radius: 50%;
+  }
+  .ellipse-6 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 47px;
+    background: url(./assets/images/69644054-58d3-472f-bcc2-e47b4b93d898.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 38;
+    border-radius: 50%;
+  }
+  .ellipse-7 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 94px;
+    background: url(./assets/images/91cf086c-1c3b-4909-9129-f6dcc622002f.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 39;
+    border-radius: 50%;
+  }
+  .line-8 {
+    position: absolute;
+    width: 7.621px;
+    height: 13.353px;
+    top: 7.793px;
+    left: 10.643px;
+    background: url(./assets/images/3fd8fb3b-fa3c-4207-90fa-d236f310b47f.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 42;
+  }
+  .line-9 {
+    position: absolute;
+    width: 6.5px;
+    height: 10px;
+    top: 10px;
+    left: 59px;
+    background: url(./assets/images/9bca4f43-875d-406a-a099-4983ee76b66a.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 43;
+  }
+  .line-a {
+    position: absolute;
+    width: 8.203px;
+    height: 11.536px;
+    top: 9.232px;
+    left: 106.359px;
+    background: url(./assets/images/cec7041c-0100-4676-a21d-dd8bf749ca11.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 44;
+  }
+  .ad-e--a-caaaad {
+    position: absolute;
+    width: 629px;
+    height: 598px;
+    top: 2px;
+    left: 0;
+    background: url(./assets/images/9c7b8bc8023f52c787549ab9dd3c84dfb3c3ac4d.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 16;
+    border-radius: 15px;
+  }
+  .flex-row-df {
+    position: relative;
+    width: 1207px;
+    height: 597px;
+    margin: 57px 0 0 141px;
+    z-index: 46;
+  }
+  .img-6 {
+    position: absolute;
+    width: 620px;
+    height: 597px;
+    top: 0;
+    left: 587px;
+    background: url(./assets/images/9b57fa6fcc1cc60a169d15ffda5e0e310ba98e7d.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 17;
+    border-radius: 15px;
+  }
+  .span {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 576px;
+    height: 288px;
+    top: 37px;
+    left: 0;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.409px;
+    text-align: left;
+    letter-spacing: -2px;
+    z-index: 40;
+  }
+  .span-b {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 523px;
+    height: 87px;
+    top: 345px;
+    left: 0;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.045px;
+    text-align: left;
+    text-overflow: initial;
+    letter-spacing: -1.2000000000000002px;
+    z-index: 41;
+    overflow: hidden;
+  }
+  .ellipse-c {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 383px;
+    left: 283px;
+    background: url(./assets/images/a3e3f70e-f138-4f14-a4d4-73dd50965707.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 45;
+    border-radius: 50%;
+  }
+  .span-d {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 18px;
+    top: 383px;
+    left: 289px;
+    color: #000000;
+    font-family: Jim Nightshade, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.004px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.6px;
+    z-index: 46;
+  }
+  .span-e {
+    display: block;
+    position: relative;
+    height: 96px;
+    margin: 131px 0 0 407px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 95.62px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -3.5px;
+    z-index: 12;
+  }
+  .flex-row-ef {
+    position: relative;
+    width: 1295px;
+    height: 88px;
+    margin: 139px 0 0 103px;
+    z-index: 13;
+  }
+  .span-f {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 372px;
+    height: 88px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43.712px;
+    text-align: left;
+    letter-spacing: -1.6px;
+    z-index: 13;
+  }
+  .span-10 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 352px;
+    height: 88px;
+    top: 0;
+    left: 488px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43.712px;
+    text-align: left;
+    letter-spacing: -1.6px;
+    z-index: 11;
+  }
+  .help-contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 364px;
+    height: 88px;
+    top: 0;
+    left: 931px;
+    color: #000000;
+    font-family: Manrope, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43.712px;
+    text-align: left;
+    letter-spacing: -1.6px;
+    z-index: 10;
+  }
+  .rectangle-11 {
+    position: relative;
+    width: 203px;
+    height: 55px;
+    margin: 40px 0 0 613px;
+    cursor: pointer;
+    background: transparent;
+    background: no-repeat center;
+    background-size: cover;
+    border: none;
+    z-index: 27;
+  }
+  .explore-nearby {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 143px;
+    height: 24px;
+    top: 14px;
+    left: 35px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: -1px;
+    z-index: 29;
+  }
+  .flex-row-d {
+    position: relative;
+    width: 1261px;
+    height: 154px;
+    margin: 224px 0 0 80px;
+    z-index: 53;
+  }
+  .your-questions-answered {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 438px;
+    height: 154px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77.455px;
+    text-align: left;
+    letter-spacing: -3.2px;
+    z-index: 30;
+  }
+  .airbnb-ownership {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 15px;
+    left: 635px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -1.2000000000000002px;
+    z-index: 32;
+  }
+  .line-12 {
+    position: absolute;
+    width: 15.301px;
+    height: 8.076px;
+    top: 21.241px;
+    left: 1246.35px;
+    background: url(./assets/images/9fb80f54-6e08-42e4-89fa-defb41f13504.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 47;
+  }
+  .line-13 {
+    position: absolute;
+    width: 613.993px;
+    height: 2.915px;
+    top: 74px;
+    left: 640px;
+    background: url(./assets/images/2950a86a-adce-4573-8854-ff9e99ace2d6.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 53;
+  }
+  .airbnb-frequency {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 99px;
+    left: 635px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -1.2000000000000002px;
+    z-index: 33;
+  }
+  .line-14 {
+    position: absolute;
+    width: 15.301px;
+    height: 8.076px;
+    top: 110.241px;
+    left: 1246.35px;
+    background: url(./assets/images/bba2da3c-bbd7-4231-8c08-db9b0352e054.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 48;
+  }
+  .line-15 {
+    position: relative;
+    width: 613.993px;
+    height: 2.915px;
+    margin: 4px 0 0 720px;
+    background: url(./assets/images/ac4da88e-bd71-4f3d-ac1a-f1a5d8614d9b.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 54;
+  }
+  .flex-row-a {
+    position: relative;
+    width: 1261px;
+    height: 58px;
+    margin: 8.085px 0 0 80px;
+    z-index: 49;
+  }
+  .help-center-visit {
+    position: absolute;
+    width: 350px;
+    height: 58px;
+    top: 0;
+    left: 0;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.045px;
+    text-align: left;
+    letter-spacing: -1.2000000000000002px;
+    z-index: 31;
+  }
+  .cant-find {
+    position: relative;
+    color: rgba(0, 0, 0, 0.69);
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.045px;
+    text-align: left;
+    letter-spacing: -1.2000000000000002px;
+  }
+  .help-center-visit-16 {
+    position: relative;
+    color: rgba(0, 0, 0, 0.69);
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.045px;
+    text-align: left;
+    text-decoration: underline;
+    letter-spacing: -1.2000000000000002px;
+  }
+  .guest-behavior-rules {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 23px;
+    left: 635px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -1.2000000000000002px;
+    z-index: 34;
+  }
+  .line-17 {
+    position: absolute;
+    width: 15.301px;
+    height: 8.076px;
+    top: 34.241px;
+    left: 1246.35px;
+    background: url(./assets/images/ea68fdb6-9d8b-4c12-909a-54c2234bcc33.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 49;
+  }
+  .line-18 {
+    position: relative;
+    width: 613.993px;
+    height: 2.915px;
+    margin: 24px 0 0 720px;
+    background: url(./assets/images/274a37d8-0021-476e-be50-3026b43324de.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 55;
+  }
+  .flex-row-fe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 626px;
+    height: 29px;
+    margin: 31.085px 0 0 715px;
+    z-index: 50;
+  }
+  .how-do-i-get-paid {
+    flex-shrink: 0;
+    position: relative;
+    height: 29px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -1.2000000000000002px;
+    z-index: 35;
+  }
+  .line-19 {
+    flex-shrink: 0;
+    position: relative;
+    width: 15.301px;
+    height: 8.076px;
+    background: url(./assets/images/3b02bed9-294b-41b9-859e-5741118422b5.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 50;
+  }
+  .line-1a {
+    position: relative;
+    width: 613.993px;
+    height: 2.915px;
+    margin: 35px 0 0 720px;
+    background: url(./assets/images/6290d8be-e69f-4d37-a15c-8a4cc38e0041.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 56;
+  }
+  .flex-row-ed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 626px;
+    height: 29px;
+    margin: 24.085px 0 0 715px;
+    z-index: 51;
+  }
+  .are-there-airbnb-friendly-apartments-outside-the-us {
+    flex-shrink: 0;
+    position: relative;
+    height: 29px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -1.2000000000000002px;
+    z-index: 9;
+  }
+  .line-1b {
+    flex-shrink: 0;
+    position: relative;
+    width: 15.301px;
+    height: 8.076px;
+    background: url(./assets/images/67b8278a-31b0-43f2-9946-ff90d9cfb51b.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 51;
+  }
+  .line-1c {
+    position: relative;
+    width: 613.993px;
+    height: 2.915px;
+    margin: 29px 0 0 720px;
+    background: url(./assets/images/013721f4-18b5-45b6-b224-d67c2f09942e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 57;
+  }
+  .flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 626px;
+    height: 29px;
+    margin: 27.085px 0 0 715px;
+    z-index: 52;
+  }
+  .im-a-building-owner-can-i-join-the-program {
+    flex-shrink: 0;
+    position: relative;
+    height: 29px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -1.2000000000000002px;
+    z-index: 8;
+  }
+  .line-1d {
+    flex-shrink: 0;
+    position: relative;
+    width: 15.301px;
+    height: 8.076px;
+    background: url(./assets/images/37beb4b1-7cb8-431f-9863-2f3f24683b44.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 52;
+  }
+  .flex-row-1e {
+    position: relative;
+    width: 1253px;
+    height: 293px;
+    margin: 212px 0 0 89px;
+    z-index: 58;
+  }
+  .find-your-airbnb-friendly-apartment-in-another-city {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 425px;
+    height: 232px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58.091px;
+    text-align: left;
+    letter-spacing: -2.4000000000000004px;
+    z-index: 6;
+  }
+  .jacksonville-los-angeles-miami-orlando-metro-philadelphia-metro-phoenix-pittsburgh-portland-raleigh {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 190px;
+    height: 270px;
+    top: 12px;
+    left: 855px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30.256px;
+    text-align: left;
+    letter-spacing: -1.7500000000000002px;
+    z-index: 3;
+  }
+  .sacramento-san-antonio-san-diego-san-francisco-seattle-metro-tampa-washington-metro-view-all {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 190px;
+    height: 240px;
+    top: 12px;
+    left: 1063px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30.256px;
+    text-align: left;
+    letter-spacing: -1.7500000000000002px;
+    z-index: 2;
+  }
+  .atlanta-metro-austin-metro-baltimore-county-boston-metro-charlotte-dallas-denver-houston-metro-indianapolis {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 219px;
+    height: 270px;
+    top: 16px;
+    left: 648px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30.256px;
+    text-align: left;
+    letter-spacing: -1.7500000000000002px;
+    z-index: 58;
+  }
+  .are-you-a-building-owner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 269px;
+    left: 0;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -1.4000000000000001px;
+    z-index: 7;
+  }
+  .flex-row-ee {
+    position: relative;
+    width: 435px;
+    height: 23px;
+    margin: 0 0 0 89px;
+    z-index: 5;
+  }
+  .learn-more {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 22px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.784px;
+    text-align: left;
+    text-decoration: underline;
+    white-space: nowrap;
+    letter-spacing: -1.2600000000000002px;
+    z-index: 5;
+  }
+  .airbnb-friendly {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 22px;
+    top: 1px;
+    left: 86px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.784px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -1.2600000000000002px;
+    z-index: 4;
+  }
+  .flex-row-bbf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 339px;
+    height: 45px;
+    margin: 121px 0 0 737px;
+    z-index: 59;
+  }
+  .dont-see-city {
+    flex-shrink: 0;
+    position: relative;
+    height: 24px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -1.4000000000000001px;
+    z-index: 1;
+  }
+  .rectangle-1f {
+    flex-shrink: 0;
+    position: relative;
+    width: 161px;
+    height: 45px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    z-index: 59;
+    border-radius: 10px;
+  }
+  .join-waitlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 19px;
+    top: 12px;
+    left: 20px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 60;
+  }
+  .rectangle-20 {
+    position: relative;
+    width: 695px;
+    height: 64px;
+    margin: 111px 0 0 0;
+    background: #d9d9d9;
+    z-index: 67;
+  }
+  .regroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 108px;
+    height: 64px;
+    top: 0;
+    left: 57px;
+    z-index: 63;
+  }
+  .text-21 {
+    flex-shrink: 0;
+    position: relative;
+    height: 16px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 62;
+  }
+  .airbnb-inc {
+    flex-shrink: 0;
+    position: relative;
+    height: 16px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 63;
+  }
+  .company-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 16px;
+    top: 24px;
+    left: 425px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 67;
+  }
+  .sitemap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 16px;
+    top: 24px;
+    left: 342px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 66;
+  }
+  .privacy {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 16px;
+    top: 24px;
+    left: 195px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 64;
+  }
+  .terms {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 16px;
+    top: 24px;
+    left: 272px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 65;
+  }
+  
