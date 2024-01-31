@@ -1,3 +1,24 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:300,400,500,700,200");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+
 .investorspage {
   background-color: #ffffff;
   display: flex;
@@ -8,6 +29,7 @@
 
 .investorspage .div {
   background-color: #ffffff;
+  overflow: hidden;
   width: 1440px;
   height: 4231px;
   position: relative;
@@ -17,7 +39,7 @@
   position: absolute;
   top: 1627px;
   left: 343px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 27px;
@@ -32,7 +54,7 @@
   letter-spacing: -0.65px;
   position: absolute;
   left: 345px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   line-height: normal;
 }
@@ -41,31 +63,7 @@
   position: absolute;
   top: 1366px;
   left: 345px;
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 500;
-  color: #00000080;
-  font-size: 13px;
-  letter-spacing: -0.65px;
-  line-height: normal;
-}
-
-.investorspage .text-wrapper-4 {
-  position: absolute;
-  top: 2170px;
-  left: 343px;
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 500;
-  color: #00000080;
-  font-size: 13px;
-  letter-spacing: -0.65px;
-  line-height: normal;
-}
-
-.investorspage .text-wrapper-5 {
-  position: absolute;
-  top: 2170px;
-  left: 760px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #00000080;
   font-size: 13px;
@@ -74,36 +72,22 @@
 }
 
 .investorspage .p {
-  position: absolute;
-  width: 380px;
-  top: 2201px;
-  left: 344px;
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 20px;
-  letter-spacing: -1px;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.investorspage .text-wrapper-6 {
   top: 1511px;
   color: #000000;
   font-size: 27px;
   letter-spacing: -1.35px;
   position: absolute;
   left: 345px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   line-height: normal;
 }
 
-.investorspage .text-wrapper-7 {
+.investorspage .text-wrapper-4 {
   position: absolute;
   top: 1396px;
   left: 343px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 27px;
@@ -111,12 +95,12 @@
   line-height: normal;
 }
 
-.investorspage .text-wrapper-8 {
+.investorspage .text-wrapper-5 {
   position: absolute;
   width: 122px;
   top: 1480px;
   left: 343px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #00000080;
   font-size: 13px;
@@ -124,11 +108,11 @@
   line-height: normal;
 }
 
-.investorspage .text-wrapper-9 {
+.investorspage .text-wrapper-6 {
   position: absolute;
   top: 735px;
   left: 344px;
-  font-family: "Inter-Bold", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 32px;
@@ -136,11 +120,11 @@
   line-height: normal;
 }
 
-.investorspage .text-wrapper-10 {
+.investorspage .text-wrapper-7 {
   position: absolute;
   top: 859px;
   left: 344px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 24px;
@@ -148,141 +132,123 @@
   line-height: normal;
 }
 
-.investorspage .text-wrapper-11 {
-  top: 929px;
-  left: 361px;
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0;
-  text-decoration: underline;
+.investorspage .announcements {
   position: absolute;
-  line-height: normal;
-}
-
-.investorspage .text-wrapper-12 {
-  position: absolute;
-  width: 126px;
-  top: 929px;
-  left: 494px;
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.investorspage .text-wrapper-13 {
-  width: 121px;
-  left: 665px;
-  position: absolute;
-  top: 929px;
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.investorspage .text-wrapper-14 {
-  width: 130px;
-  left: 825px;
-  position: absolute;
-  top: 929px;
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.investorspage .text-wrapper-15 {
-  top: 929px;
-  left: 1000px;
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0;
-  text-decoration: underline;
-  position: absolute;
-  line-height: normal;
-}
-
-.investorspage .overlap {
-  position: absolute;
-  width: 13px;
-  height: 13px;
-  top: 932px;
+  width: 742px;
+  height: 22px;
+  top: 930px;
   left: 343px;
 }
 
-.investorspage .line {
-  position: absolute;
-  width: 1px;
-  height: 12px;
+.investorspage .text-wrapper-8 {
   top: 0;
-  left: 6px;
-  object-fit: cover;
+  left: 18px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-decoration: underline;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  line-height: normal;
+}
+
+.investorspage .text-wrapper-9 {
+  position: absolute;
+  width: 126px;
+  top: 0;
+  left: 151px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.investorspage .text-wrapper-10 {
+  width: 121px;
+  left: 322px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.investorspage .text-wrapper-11 {
+  width: 130px;
+  left: 482px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.investorspage .text-wrapper-12 {
+  top: 0;
+  left: 657px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-decoration: underline;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  line-height: normal;
+}
+
+.investorspage .group {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 2px;
+  left: 0;
 }
 
 .investorspage .img {
   position: absolute;
-  width: 12px;
-  height: 5px;
-  top: 8px;
-  left: 1px;
-}
-
-.investorspage .line-2 {
-  position: absolute;
   width: 13px;
-  height: 1px;
-  top: 12px;
-  left: 0;
-  object-fit: cover;
+  height: 13px;
+  top: 2px;
+  left: 134px;
 }
 
-.investorspage .overlap-group {
+.investorspage .group-2 {
   position: absolute;
   width: 13px;
   height: 13px;
-  top: 932px;
-  left: 477px;
+  top: 2px;
+  left: 304px;
 }
 
-.investorspage .overlap-2 {
+.investorspage .group-3 {
   position: absolute;
   width: 13px;
   height: 13px;
-  top: 932px;
-  left: 647px;
+  top: 2px;
+  left: 467px;
 }
 
-.investorspage .overlap-3 {
+.investorspage .group-4 {
   position: absolute;
   width: 13px;
   height: 13px;
-  top: 932px;
-  left: 810px;
+  top: 2px;
+  left: 638px;
 }
 
-.investorspage .overlap-4 {
-  position: absolute;
-  width: 13px;
-  height: 13px;
-  top: 932px;
-  left: 981px;
-}
-
-.investorspage .line-3 {
+.investorspage .line {
   position: absolute;
   width: 777px;
   height: 3px;
@@ -291,7 +257,7 @@
   object-fit: cover;
 }
 
-.investorspage .line-4 {
+.investorspage .line-2 {
   position: absolute;
   width: 777px;
   height: 3px;
@@ -300,7 +266,7 @@
   object-fit: cover;
 }
 
-.investorspage .line-5 {
+.investorspage .line-3 {
   position: absolute;
   width: 777px;
   height: 3px;
@@ -309,7 +275,7 @@
   object-fit: cover;
 }
 
-.investorspage .line-6 {
+.investorspage .line-4 {
   position: absolute;
   width: 777px;
   height: 3px;
@@ -318,7 +284,7 @@
   object-fit: cover;
 }
 
-.investorspage .line-7 {
+.investorspage .line-5 {
   position: absolute;
   width: 777px;
   height: 3px;
@@ -327,7 +293,7 @@
   object-fit: cover;
 }
 
-.investorspage .line-8 {
+.investorspage .line-6 {
   position: absolute;
   width: 777px;
   height: 3px;
@@ -336,7 +302,7 @@
   object-fit: cover;
 }
 
-.investorspage .line-9 {
+.investorspage .line-7 {
   position: absolute;
   width: 777px;
   height: 3px;
@@ -345,7 +311,7 @@
   object-fit: cover;
 }
 
-.investorspage .line-10 {
+.investorspage .line-8 {
   position: absolute;
   width: 777px;
   height: 3px;
@@ -354,7 +320,7 @@
   object-fit: cover;
 }
 
-.investorspage .line-11 {
+.investorspage .line-9 {
   position: absolute;
   width: 777px;
   height: 3px;
@@ -363,11 +329,11 @@
   object-fit: cover;
 }
 
-.investorspage .text-wrapper-16 {
+.investorspage .text-wrapper-13 {
   position: absolute;
   top: 2985px;
   left: 339px;
-  font-family: "Inter-Bold", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 32px;
@@ -375,23 +341,29 @@
   line-height: normal;
 }
 
-.investorspage .div-wrapper {
+.investorspage .overlap-group-wrapper {
   position: absolute;
-  width: 218px;
+  width: 220px;
   height: 49px;
   top: 1050px;
   left: 343px;
+}
+
+.investorspage .overlap-group {
+  position: relative;
+  width: 218px;
+  height: 49px;
   background-color: #ffffff;
   border-radius: 10px;
   border: 1px solid;
   border-color: #00000099;
 }
 
-.investorspage .text-wrapper-17 {
+.investorspage .text-wrapper-14 {
   position: absolute;
-  top: 14px;
+  top: 15px;
   left: 31px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 14px;
@@ -399,23 +371,19 @@
   line-height: normal;
 }
 
-.investorspage .overlap-5 {
+.investorspage .overlap-wrapper {
   position: absolute;
-  width: 218px;
+  width: 220px;
   height: 49px;
   top: 1729px;
   left: 343px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  border: 1px solid;
-  border-color: #00000099;
 }
 
-.investorspage .text-wrapper-18 {
+.investorspage .text-wrapper-15 {
   position: absolute;
-  top: 14px;
+  top: 15px;
   left: 37px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 14px;
@@ -423,23 +391,65 @@
   line-height: normal;
 }
 
-.investorspage .overlap-6 {
+.investorspage .newsroom {
   position: absolute;
-  width: 218px;
-  height: 49px;
-  top: 2302px;
+  width: 801px;
+  height: 480px;
+  top: 1871px;
   left: 343px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  border: 1px solid;
-  border-color: #00000099;
+}
+
+.investorspage .text-wrapper-16 {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #00000080;
+  font-size: 13px;
+  letter-spacing: -0.65px;
+  line-height: normal;
+}
+
+.investorspage .text-wrapper-17 {
+  position: absolute;
+  top: 300px;
+  left: 417px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #00000080;
+  font-size: 13px;
+  letter-spacing: -0.65px;
+  line-height: normal;
+}
+
+.investorspage .text-wrapper-18 {
+  position: absolute;
+  width: 380px;
+  top: 331px;
+  left: 1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -1px;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.investorspage .div-wrapper {
+  position: absolute;
+  width: 220px;
+  height: 49px;
+  top: 431px;
+  left: 0;
 }
 
 .investorspage .text-wrapper-19 {
   position: absolute;
-  top: 14px;
+  top: 15px;
   left: 48px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 14px;
@@ -451,8 +461,8 @@
   position: absolute;
   width: 362px;
   height: 222px;
-  top: 1934px;
-  left: 758px;
+  top: 63px;
+  left: 415px;
   object-fit: cover;
 }
 
@@ -460,17 +470,17 @@
   position: absolute;
   width: 367px;
   height: 224px;
-  top: 1932px;
-  left: 343px;
+  top: 61px;
+  left: 0;
   object-fit: cover;
 }
 
 .investorspage .text-wrapper-20 {
   position: absolute;
   width: 374px;
-  top: 2201px;
-  left: 760px;
-  font-family: "Inter-Medium", Helvetica;
+  top: 331px;
+  left: 417px;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 20px;
@@ -480,22 +490,30 @@
 }
 
 .investorspage .text-wrapper-21 {
-  top: 1870px;
-  left: 344px;
-  font-family: "Inter-Bold", Helvetica;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 32px;
   letter-spacing: -1.6px;
-  position: absolute;
   line-height: normal;
+}
+
+.investorspage .upcoming-events {
+  position: absolute;
+  width: 358px;
+  height: 209px;
+  top: 2473px;
+  left: 339px;
 }
 
 .investorspage .text-wrapper-22 {
   position: absolute;
-  top: 2472px;
-  left: 343px;
-  font-family: "Inter-Bold", Helvetica;
+  top: 0;
+  left: 4px;
+  font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 32px;
@@ -505,9 +523,9 @@
 
 .investorspage .text-wrapper-23 {
   position: absolute;
-  top: 2565px;
-  left: 343px;
-  font-family: "Inter-Medium", Helvetica;
+  top: 93px;
+  left: 4px;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #00000080;
   font-size: 13px;
@@ -517,9 +535,9 @@
 
 .investorspage .text-wrapper-24 {
   position: absolute;
-  top: 2596px;
-  left: 339px;
-  font-family: "Inter-Medium", Helvetica;
+  top: 124px;
+  left: 0;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 27px;
@@ -530,9 +548,9 @@
 
 .investorspage .text-wrapper-25 {
   position: absolute;
-  top: 2659px;
-  left: 366px;
-  font-family: "Inter-Medium", Helvetica;
+  top: 187px;
+  left: 27px;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 14px;
@@ -544,9 +562,9 @@
 .investorspage .text-wrapper-26 {
   position: absolute;
   width: 23px;
-  top: 2647px;
-  left: 343px;
-  font-family: "Inter-Light", Helvetica;
+  top: 175px;
+  left: 4px;
+  font-family: "Inter", Helvetica;
   font-weight: 300;
   color: #000000;
   font-size: 32px;
@@ -557,9 +575,9 @@
 
 .investorspage .text-wrapper-27 {
   position: absolute;
-  top: 2659px;
-  left: 534px;
-  font-family: "Inter-Medium", Helvetica;
+  top: 187px;
+  left: 195px;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 14px;
@@ -568,84 +586,24 @@
   text-decoration: underline;
 }
 
-.investorspage .overlap-group-2 {
+.investorspage .line-10 {
+  position: absolute;
+  width: 1px;
+  height: 8px;
+  top: 196px;
+  left: 172px;
+  object-fit: cover;
+}
+
+.investorspage .group-5 {
   position: absolute;
   width: 14px;
   height: 14px;
-  top: 2663px;
-  left: 512px;
+  top: 190px;
+  left: 173px;
 }
 
-.investorspage .line-12 {
-  position: absolute;
-  width: 14px;
-  height: 1px;
-  top: 13px;
-  left: 0;
-  object-fit: cover;
-}
-
-.investorspage .line-13 {
-  position: absolute;
-  width: 1px;
-  height: 13px;
-  top: 1px;
-  left: 6px;
-  object-fit: cover;
-}
-
-.investorspage .line-14 {
-  position: absolute;
-  width: 1px;
-  height: 8px;
-  top: 6px;
-  left: 13px;
-  object-fit: cover;
-}
-
-.investorspage .line-15 {
-  position: absolute;
-  width: 10px;
-  height: 6px;
-  top: 0;
-  left: 2px;
-}
-
-.investorspage .line-16 {
-  position: absolute;
-  width: 1px;
-  height: 8px;
-  top: 2669px;
-  left: 511px;
-  object-fit: cover;
-}
-
-.investorspage .overlap-7 {
-  position: absolute;
-  width: 328px;
-  height: 57px;
-  top: 2777px;
-  left: 343px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.investorspage .text-wrapper-28 {
-  position: absolute;
-  top: 18px;
-  left: 59px;
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: -0.7px;
-  line-height: normal;
-  text-decoration: underline;
-}
-
-.investorspage .overlap-8 {
+.investorspage .overlap {
   position: absolute;
   width: 343px;
   height: 48px;
@@ -657,11 +615,11 @@
   border-color: #0000004c;
 }
 
-.investorspage .text-wrapper-29 {
+.investorspage .text-wrapper-28 {
   position: absolute;
   top: 13px;
   left: 30px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #00000080;
   font-size: 15px;
@@ -670,12 +628,43 @@
   white-space: nowrap;
 }
 
+.investorspage .group-6 {
+  position: absolute;
+  width: 330px;
+  height: 57px;
+  top: 2777px;
+  left: 343px;
+}
+
+.investorspage .overlap-2 {
+  position: relative;
+  width: 328px;
+  height: 57px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.investorspage .text-wrapper-29 {
+  position: absolute;
+  top: 19px;
+  left: 59px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: -0.7px;
+  line-height: normal;
+  text-decoration: underline;
+}
+
 .investorspage .questions-for-the {
   position: absolute;
   width: 341px;
   top: 3078px;
   left: 750px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000;
   font-size: 15px;
@@ -684,7 +673,7 @@
 }
 
 .investorspage .span {
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000;
   font-size: 15px;
@@ -696,10 +685,10 @@
 }
 
 .investorspage .rectangle {
+  top: 3147px;
   position: absolute;
   width: 25px;
   height: 25px;
-  top: 3147px;
   left: 343px;
   background-color: #ffffff;
   border-radius: 5px;
@@ -708,10 +697,10 @@
 }
 
 .investorspage .rectangle-2 {
+  top: 3192px;
   position: absolute;
   width: 25px;
   height: 25px;
-  top: 3192px;
   left: 343px;
   background-color: #ffffff;
   border-radius: 5px;
@@ -720,10 +709,10 @@
 }
 
 .investorspage .rectangle-3 {
+  top: 3237px;
   position: absolute;
   width: 25px;
   height: 25px;
-  top: 3237px;
   left: 343px;
   background-color: #ffffff;
   border-radius: 5px;
@@ -732,10 +721,10 @@
 }
 
 .investorspage .rectangle-4 {
+  top: 3282px;
   position: absolute;
   width: 25px;
   height: 25px;
-  top: 3282px;
   left: 343px;
   background-color: #ffffff;
   border-radius: 5px;
@@ -744,10 +733,10 @@
 }
 
 .investorspage .rectangle-5 {
+  top: 3327px;
   position: absolute;
   width: 25px;
   height: 25px;
-  top: 3327px;
   left: 343px;
   background-color: #ffffff;
   border-radius: 5px;
@@ -758,25 +747,25 @@
 .investorspage .text-wrapper-31 {
   top: 3150px;
   left: 378px;
-  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #00000080;
   font-size: 15px;
   letter-spacing: -0.75px;
   white-space: nowrap;
   position: absolute;
+  font-family: "Inter", Helvetica;
   line-height: normal;
 }
 
 .investorspage .text-wrapper-32 {
+  position: absolute;
   top: 3195px;
   left: 378px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #00000080;
   font-size: 15px;
   letter-spacing: -0.75px;
-  position: absolute;
   line-height: normal;
   white-space: nowrap;
 }
@@ -785,7 +774,7 @@
   position: absolute;
   top: 3240px;
   left: 378px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #00000080;
   font-size: 15px;
@@ -797,13 +786,13 @@
 .investorspage .text-wrapper-34 {
   top: 3285px;
   left: 378px;
-  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #00000080;
   font-size: 15px;
   letter-spacing: -0.75px;
   white-space: nowrap;
   position: absolute;
+  font-family: "Inter", Helvetica;
   line-height: normal;
 }
 
@@ -811,7 +800,7 @@
   position: absolute;
   top: 3330px;
   left: 378px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #00000080;
   font-size: 15px;
@@ -820,12 +809,18 @@
   white-space: nowrap;
 }
 
-.investorspage .overlap-9 {
+.investorspage .group-7 {
   position: absolute;
-  width: 121px;
+  width: 123px;
   height: 42px;
   top: 3158px;
   left: 750px;
+}
+
+.investorspage .overlap-3 {
+  position: relative;
+  width: 121px;
+  height: 42px;
   background-color: #ffffff;
   border-radius: 10px;
   border: 1px solid;
@@ -834,9 +829,9 @@
 
 .investorspage .text-wrapper-36 {
   position: absolute;
-  top: 10px;
+  top: 11px;
   left: 24px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000;
   font-size: 15px;
@@ -845,21 +840,27 @@
   white-space: nowrap;
 }
 
-.investorspage .overlap-10 {
+.investorspage .group-8 {
   position: absolute;
-  width: 124px;
+  width: 126px;
   height: 43px;
   top: 3372px;
   left: 343px;
+}
+
+.investorspage .overlap-4 {
+  position: relative;
+  width: 124px;
+  height: 43px;
   background-color: #000000;
   border-radius: 10px;
 }
 
 .investorspage .text-wrapper-37 {
   position: absolute;
-  top: 11px;
+  top: 12px;
   left: 39px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 15px;
@@ -868,28 +869,11 @@
   white-space: nowrap;
 }
 
-.investorspage .overlap-11 {
+.investorspage .overlap-5 {
   position: absolute;
   width: 1440px;
   height: 549px;
   top: 3615px;
-  left: 0;
-}
-
-.investorspage .line-17 {
-  position: absolute;
-  width: 731px;
-  height: 3px;
-  top: 140px;
-  left: 152px;
-  object-fit: cover;
-}
-
-.investorspage .rectangle-6 {
-  position: absolute;
-  width: 1440px;
-  height: 549px;
-  top: 0;
   left: 0;
   background-color: #d9d9d94c;
 }
@@ -899,7 +883,7 @@
   width: 333px;
   top: 353px;
   left: 1022px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -915,7 +899,7 @@
   width: 115px;
   top: 296px;
   left: 1018px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -931,7 +915,7 @@
   width: 166px;
   top: 181px;
   left: 1018px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -947,7 +931,7 @@
   width: 98px;
   top: 237px;
   left: 1018px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -962,7 +946,7 @@
   width: 210px;
   top: 355px;
   left: 91px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -978,7 +962,7 @@
   width: 242px;
   top: 412px;
   left: 91px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -994,7 +978,7 @@
   width: 370px;
   top: 469px;
   left: 91px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -1012,7 +996,7 @@
   color: #000000;
   white-space: nowrap;
   position: absolute;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   font-size: 24px;
   text-align: right;
@@ -1025,7 +1009,7 @@
   width: 210px;
   top: 124px;
   left: 528px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -1041,7 +1025,7 @@
   width: 220px;
   top: 181px;
   left: 524px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -1059,12 +1043,13 @@
   color: #000000b2;
   text-decoration: underline;
   position: absolute;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   font-size: 24px;
   text-align: right;
   letter-spacing: 0.48px;
   line-height: normal;
+  white-space: nowrap;
 }
 
 .investorspage .text-wrapper-49 {
@@ -1072,7 +1057,7 @@
   width: 215px;
   top: 296px;
   left: 522px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -1090,7 +1075,7 @@
   text-decoration: underline;
   white-space: nowrap;
   position: absolute;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   font-size: 24px;
   text-align: right;
@@ -1102,31 +1087,31 @@
   width: 82px;
   top: 66px;
   left: 1018px;
-  font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
-  color: #000000;
   font-size: 24px;
   text-align: right;
   letter-spacing: 0.48px;
   position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
   line-height: normal;
   white-space: nowrap;
 }
 
 .investorspage .text-wrapper-52 {
+  position: absolute;
   width: 133px;
   top: 124px;
   left: 1018px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
   text-align: right;
   letter-spacing: 0.48px;
+  line-height: normal;
   text-decoration: underline;
   white-space: nowrap;
-  position: absolute;
-  line-height: normal;
 }
 
 .investorspage .text-wrapper-53 {
@@ -1134,7 +1119,7 @@
   width: 97px;
   top: 66px;
   left: 91px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000;
   font-size: 24px;
@@ -1149,7 +1134,7 @@
   width: 142px;
   top: 124px;
   left: 91px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -1165,7 +1150,7 @@
   width: 104px;
   top: 238px;
   left: 91px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -1180,7 +1165,7 @@
   width: 104px;
   top: 181px;
   left: 91px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -1196,7 +1181,7 @@
   width: 223px;
   top: 297px;
   left: 91px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000b2;
   font-size: 24px;
@@ -1206,12 +1191,19 @@
   text-decoration: underline;
 }
 
-.investorspage .overlap-12 {
+.investorspage .footer {
   position: absolute;
-  width: 1440px;
+  width: 1458px;
   height: 67px;
   top: 4164px;
   left: 0;
+  background-color: transparent;
+}
+
+.investorspage .overlap-6 {
+  position: relative;
+  width: 1440px;
+  height: 67px;
   background-color: #ffffff;
   border: 1px solid;
   border-color: #00000021;
@@ -1220,9 +1212,9 @@
 .investorspage .text-wrapper-58 {
   position: absolute;
   width: 35px;
-  top: 23px;
+  top: 24px;
   left: 72px;
-  font-family: "Inter-ExtraLight", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 200;
   color: #000000;
   font-size: 14px;
@@ -1233,14 +1225,14 @@
 
 .investorspage .text-wrapper-59 {
   width: 69px;
-  top: 23px;
+  top: 24px;
   left: 111px;
-  font-family: "Inter-ExtraLight", Helvetica;
   font-weight: 200;
-  color: #000000;
   font-size: 14px;
   letter-spacing: 0;
   position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
   line-height: normal;
   white-space: nowrap;
 }
@@ -1248,9 +1240,9 @@
 .investorspage .text-wrapper-60 {
   position: absolute;
   width: 47px;
-  top: 23px;
+  top: 24px;
   left: 210px;
-  font-family: "Inter-ExtraLight", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 200;
   color: #000000;
   font-size: 14px;
@@ -1262,9 +1254,9 @@
 .investorspage .text-wrapper-61 {
   position: absolute;
   width: 40px;
-  top: 23px;
+  top: 24px;
   left: 287px;
-  font-family: "Inter-ExtraLight", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 200;
   color: #000000;
   font-size: 14px;
@@ -1276,9 +1268,9 @@
 .investorspage .text-wrapper-62 {
   position: absolute;
   width: 44px;
-  top: 23px;
+  top: 24px;
   left: 1123px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 14px;
@@ -1290,9 +1282,9 @@
 .investorspage .support-resources {
   position: absolute;
   width: 130px;
-  top: 23px;
+  top: 24px;
   left: 1182px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 14px;
@@ -1304,9 +1296,9 @@
 .investorspage .text-wrapper-63 {
   position: absolute;
   width: 53px;
-  top: 23px;
+  top: 24px;
   left: 357px;
-  font-family: "Inter-ExtraLight", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 200;
   color: #000000;
   font-size: 14px;
@@ -1318,9 +1310,9 @@
 .investorspage .text-wrapper-64 {
   position: absolute;
   width: 108px;
-  top: 23px;
+  top: 24px;
   left: 440px;
-  font-family: "Inter-ExtraLight", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 200;
   color: #000000;
   font-size: 14px;
@@ -1341,9 +1333,9 @@
 .investorspage .text-wrapper-65 {
   position: absolute;
   width: 74px;
-  top: 23px;
+  top: 24px;
   left: 1034px;
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 14px;
@@ -1352,7 +1344,7 @@
   white-space: nowrap;
 }
 
-.investorspage .line-18 {
+.investorspage .line-11 {
   position: absolute;
   width: 10px;
   height: 6px;
@@ -1369,11 +1361,35 @@
   object-fit: cover;
 }
 
-.investorspage .text-wrapper-66 {
+.investorspage .overlap-7 {
   position: absolute;
-  top: 41px;
-  left: 597px;
-  font-family: "Inter-Bold", Helvetica;
+  width: 1283px;
+  height: 74px;
+  top: 14px;
+  left: 45px;
+}
+
+.investorspage .line-12 {
+  position: absolute;
+  width: 6px;
+  height: 7px;
+  top: 40px;
+  left: 1264px;
+}
+
+.investorspage .navbar {
+  position: absolute;
+  width: 1283px;
+  height: 74px;
+  top: 0;
+  left: 0;
+}
+
+.investorspage .text-wrapper-66 {
+  left: 552px;
+  position: absolute;
+  top: 28px;
+  font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 16px;
@@ -1383,23 +1399,23 @@
 }
 
 .investorspage .events-presentations {
-  top: 41px;
-  left: 651px;
-  font-family: "Inter-Bold", Helvetica;
+  position: absolute;
+  top: 28px;
+  left: 606px;
+  font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 16px;
   letter-spacing: -0.8px;
-  position: absolute;
   line-height: normal;
   white-space: nowrap;
 }
 
 .investorspage .text-wrapper-67 {
   position: absolute;
-  top: 41px;
-  left: 826px;
-  font-family: "Inter-Bold", Helvetica;
+  top: 28px;
+  left: 781px;
+  font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 16px;
@@ -1410,9 +1426,9 @@
 
 .investorspage .text-wrapper-68 {
   position: absolute;
-  top: 41px;
-  left: 944px;
-  font-family: "Inter-Bold", Helvetica;
+  top: 28px;
+  left: 899px;
+  font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 16px;
@@ -1422,10 +1438,10 @@
 }
 
 .investorspage .text-wrapper-69 {
+  left: 981px;
   position: absolute;
-  top: 41px;
-  left: 1026px;
-  font-family: "Inter-Bold", Helvetica;
+  top: 28px;
+  font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 16px;
@@ -1435,10 +1451,10 @@
 }
 
 .investorspage .text-wrapper-70 {
+  left: 1064px;
   position: absolute;
-  top: 41px;
-  left: 1109px;
-  font-family: "Inter-Bold", Helvetica;
+  top: 28px;
+  font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 16px;
@@ -1448,10 +1464,10 @@
 }
 
 .investorspage .text-wrapper-71 {
+  left: 1162px;
   position: absolute;
-  top: 41px;
-  left: 1207px;
-  font-family: "Inter-Bold", Helvetica;
+  top: 28px;
+  font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 16px;
@@ -1460,43 +1476,27 @@
   white-space: nowrap;
 }
 
-.investorspage .overlap-13 {
-  position: absolute;
-  width: 13px;
-  height: 14px;
-  top: 46px;
-  left: 1302px;
-}
-
 .investorspage .ellipse {
   position: absolute;
   width: 10px;
   height: 10px;
-  top: 0;
-  left: 0;
+  top: 32px;
+  left: 1257px;
   background-color: #ffffff;
   border-radius: 5px;
   border: 1.5px solid;
   border-color: #000000;
 }
 
-.investorspage .line-19 {
-  position: absolute;
-  width: 6px;
-  height: 7px;
-  top: 8px;
-  left: 7px;
-}
-
 .investorspage .text-wrapper-72 {
-  top: 38px;
-  left: 154px;
-  font-family: "Inter-Medium", Helvetica;
+  position: absolute;
+  top: 25px;
+  left: 109px;
+  font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000bf;
   font-size: 20px;
   letter-spacing: -1px;
-  position: absolute;
   line-height: normal;
   white-space: nowrap;
 }
@@ -1505,7 +1505,7 @@
   position: absolute;
   width: 109px;
   height: 74px;
-  top: 14px;
-  left: 45px;
+  top: 0;
+  left: 0;
   object-fit: cover;
 }
