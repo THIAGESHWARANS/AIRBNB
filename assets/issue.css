@@ -1,3 +1,19 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=League+Spartan:500,300,100|Inter:600,500,400,200|Thasadith:700|Varela:400");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
 .issuepage {
     background-color: #ffffff;
     display: flex;
@@ -54,34 +70,14 @@
     border: 1px solid;
     border-color: #00000038;
   }
-  
-  .issuepage .line {
-    position: absolute;
-    width: 20px;
-    height: 1px;
-    top: 12px;
-    left: 17px;
-    object-fit: cover;
+    .issuepage .line41 {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 10px;
+      left: 16px;
+      object-fit: cover;
   }
-  
-  .issuepage .img {
-    position: absolute;
-    width: 20px;
-    height: 1px;
-    top: 20px;
-    left: 17px;
-    object-fit: cover;
-  }
-  
-  .issuepage .line-2 {
-    position: absolute;
-    width: 20px;
-    height: 1px;
-    top: 28px;
-    left: 17px;
-    object-fit: cover;
-  }
-  
   .issuepage .div-wrapper {
     position: absolute;
     width: 34px;
@@ -313,7 +309,7 @@
     position: absolute;
     width: 731px;
     height: 3px;
-    top: 1373px;
+    top: 1390px;
     left: 152px;
     object-fit: cover;
   }
@@ -334,16 +330,6 @@
     top: 1591px;
     left: 0;
   }
-  
-  .issuepage .line-7 {
-    position: absolute;
-    width: 731px;
-    height: 3px;
-    top: 140px;
-    left: 152px;
-    object-fit: cover;
-  }
-  
   .issuepage .rectangle {
     position: absolute;
     width: 1440px;
