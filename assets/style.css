@@ -99,8 +99,26 @@
   border-radius: 9999px;
   margin-top: -23px;
   margin-left: 299px;
+  display: flex;
+  align-items: center;
 }
-
+.search{
+  margin-top: 15px;
+  margin-left: 8px;
+  width: 100%; height: 100%; position: relative;
+ }
+ .search .Ellipse{
+  width: 10px; 
+  height: 10px; 
+  left: -1,8px; 
+  top: -1.8px;
+   position: absolute;
+    border-radius: 9999px; 
+    border: 1.9px white solid;
+ }
+ .search .Line{
+  width: 8px; height: 1px; left: 9px; top: 11.5px; position: absolute; border: 1.50px white solid; transform:rotate(45deg); background-color:white;
+ }
 .airbnbyourhome {
   position: fixed;
   margin-left: 1105px;
